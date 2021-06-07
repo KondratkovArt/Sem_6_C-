@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{13A388CF-8CC1-48F4-9F30-7C83AF05225E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{08EAAC11-BFAE-4E6C-A564-0D54D737381D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{559D45A6-9A12-41EE-A392-7AB40FB77D09} = {559D45A6-9A12-41EE-A392-7AB40FB77D09}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

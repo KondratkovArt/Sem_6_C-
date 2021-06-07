@@ -13,7 +13,7 @@ namespace DAL.Entities
         public string NSP { get; set; }
 
         [Required]
-        public Address address;
+        public Address Address { get; set; }
 
     }
 }

@@ -15,6 +15,6 @@ namespace DAL.Entities
         public double CurrentVal { get; set; }
 
         [Required]
-        public Client client;
+        public Client Client { get; set; }
     }
 }

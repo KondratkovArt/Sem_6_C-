@@ -35,7 +35,7 @@ namespace DAL.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ProductPrice>().HasKey(pp => new { pp.ProductId, pp.RentStoreId });
+            //modelBuilder.Entity<ProductPrice>().HasKey(pp => new { pp.ProductId, pp.RentStoreId });
         }
     }
 }

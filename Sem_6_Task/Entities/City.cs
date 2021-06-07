@@ -13,6 +13,6 @@ namespace DAL.Entities
         public string Name { get; set; }
 
         [Required]
-        public Country country;
+        public Country Country { get; set; }
     }
 }
