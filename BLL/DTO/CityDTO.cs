@@ -5,20 +5,21 @@ using System.Text;
 
 namespace BLL.DTO
 {
-    class CountryDTO
+    class CityDTO
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
-        
+        public int CountryId { get; set; }
 
-        public CountryDTO(Country country)
+
+        public CityDTO(City city)
         {
-            Id = country.Id;
-            Name = country.Name;
+            Id = city.Id;
+            Name = city.Name;
+            CountryId = city.Country.Id;
         }
 
-        public CountryDTO()
+        public CityDTO()
         {
 
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Client
+    public class Client
     {
         public int Id { get; set; }
         public string NSP { get; set; }

@@ -11,7 +11,7 @@ namespace BLL.DTO
         public string HouseNumber { get; set; }
         public string FlatNumber { get; set; }
         public int CityId { get; set; }
-        //public virtual City City { get; set; }
+
 
 
     }

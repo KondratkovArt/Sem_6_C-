@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Meter
+    public class Meter
     {
         public int Id { get; set; }
         public string ServiceNaming { get; set; }

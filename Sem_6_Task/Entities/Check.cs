@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Check
+    public class Check
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }

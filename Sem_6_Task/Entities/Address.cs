@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Address
+    public class Address
     {
+        public int Id { get; set; }
         public string Street { get; set; }
         public string HouseNumber { get; set; }
         public string FlatNumber { get; set; }
