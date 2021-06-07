@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Service
+    public class Service
     {
         public string Naming { get; set; }
         public string Unit { get; set; }

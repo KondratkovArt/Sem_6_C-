@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Organisation
+    public class Organisation
     {
         public int Id { get; set; }
+        public string Name { get; set; }
 
         [Required]
         public Address Address { get; set; }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EF
 {
-    class MyContext : DbContext
+    public class MyContext : DbContext
     {
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Check> Checks { get; set; }
