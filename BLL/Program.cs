@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sem_6_Task
+namespace BLL
 {
     class Program
     {
