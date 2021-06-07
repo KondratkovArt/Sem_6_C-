@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BLL.DTO
 {
-    class OrganisationDTO
+    public class OrganisationDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

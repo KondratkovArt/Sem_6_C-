@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BLL.DTO
 {
-    class AddressDTO
+    public class AddressDTO
     {
         public int Id { get; set; }
         public string Street { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BLL.DTO
 {
-    class CheckDTO
+    public class CheckDTO
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
